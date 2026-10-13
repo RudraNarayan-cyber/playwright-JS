@@ -1,0 +1,16 @@
+{
+"username":"paku@gmail.com",
+"password":"Paku@123",
+"name":"Paku Bisoyi",
+"interests":["Cypress","Java","API"],
+"gender":"Male",
+"address":{
+    "area":"Sorada",
+    "city":"Bhubaneswar",
+    "pincode":"761108",
+    "state":"Odisha",
+    "country":"India"
+  }
+
+
+}
