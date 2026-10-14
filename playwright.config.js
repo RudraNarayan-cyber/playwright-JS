@@ -33,18 +33,19 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     screenshot: "only-on-failure",
-    video:"retain-on-failure"
+    //video:"retain-on-failure"
+    video:"off"
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'], channel: 'chrome',screenshot: "on", 
+      use: { ...devices['Desktop Chrome'], channel: 'chrome',screenshot: "off", 
 
-        video: "on", 
+        video: "off", 
 
-        trace: "on"  },
+        trace: "off"  },
       
     },
 
